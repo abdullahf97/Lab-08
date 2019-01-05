@@ -1,0 +1,12 @@
+print("Lab-08, Abdullah Farooq, 18B-104-CS-A")
+print("28/12/2018")
+print("Question 1(a): Thursday, July 13 2018")
+import time
+time1 = time.strftime("%A, %B %d %Y")
+print(time1)
+print("Question 1(b): '09:40 PM Central Daylight Time on 07/13/2018")
+time2 = time.strftime("%I:%M %p %Z on %D")
+print(time2)
+print("Question 1(c): I will meet you on Thu July 13 at 09:40 PM")
+time3 = time.strftime("I will meet you on %a %B %d at %I:%M %p.")
+print(time3)
